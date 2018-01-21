@@ -14,9 +14,17 @@ body {
 	text-align: center;
 }
 
+.icons a .icon {
+	transition: all 0.2s ease-in-out;
+}
 
 .icons a:hover .icon {
 	fill: #ff0101;
+}
+
+.epk-link {
+	text-align: center;
+	margin: 1rem auto 2rem;
 }
 
 // EPK
