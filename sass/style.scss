@@ -18,3 +18,29 @@ body {
 .icons a:hover .icon {
 	fill: #ff0101;
 }
+
+// EPK
+li + li {
+	margin-top: 0.3rem;
+}
+
+.container {
+	max-width: 43rem;
+	margin: 0 auto;
+
+	img {
+		max-width: 560px;
+	}
+}
+
+.logo--small img {
+	max-height: 14rem;
+}
+
+.epk--title {
+	text-align: center;
+}
+
+a {
+	color: white;
+}
