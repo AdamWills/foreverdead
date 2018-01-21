@@ -1,0 +1,20 @@
+@import 'normalize';
+
+body {
+	background-color: #000;
+	background-image: url(../img/bg.png);
+	color: white;
+}
+
+.logo, .icons {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 800px;
+	margin-top: 1em;
+	text-align: center;
+}
+
+
+.icons a:hover .icon {
+	fill: #ff0101;
+}
